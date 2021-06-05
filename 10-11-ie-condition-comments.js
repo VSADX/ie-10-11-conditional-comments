@@ -41,7 +41,7 @@ function enable_internet_explorer_cc() {
             var s = scripts[i]
             var script = document.createElement("script")
             script.innerHTML = s.innerHTML
-            s.parentElement.replaceChild(script, s)
+            s.parentNode.replaceChild(script, s)
         }
     }
 
