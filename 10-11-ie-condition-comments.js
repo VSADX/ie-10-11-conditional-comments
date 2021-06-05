@@ -37,7 +37,7 @@ function enable_internet_explorer_cc() {
     /** @param {HTMLDivElement} temp */
     function allow_scripts_from_comments(temp) {
         var scripts = temp.getElementsByTagName("script")
-        for (let i = 0; i < scripts.length; i++) {
+        for (var i = 0; i < scripts.length; i++) {
             var s = scripts[i]
             var script = document.createElement("script")
             script.innerHTML = s.innerHTML
