@@ -22,7 +22,7 @@
 
 ```
 Make sure to place the link to this script at the end of the body or after it or after all the comments you want to replace!
-```
+```html
 <head>
 
     <!--[if IE]>
