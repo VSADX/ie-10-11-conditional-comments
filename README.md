@@ -39,3 +39,6 @@ Make sure to place the link to this script at the end of the body or after it or
 
 </body>
 ```
+  
+References  
+[@Strykeros](https://github.com/Strykeros)
